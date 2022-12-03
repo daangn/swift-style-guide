@@ -1,6 +1,6 @@
 # options
 --swiftversion 5.7
---self init-only # redundantSelf
+--self remove # redundantSelf
 --importgrouping testable-bottom # sortedImports
 --commas always # trailingCommas
 --trimwhitespace always # trailingSpace
