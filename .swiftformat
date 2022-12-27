@@ -1,6 +1,6 @@
 # options
 --swiftversion 5.7
---self remove # redundantSelf
+--self init-only # redundantSelf
 --importgrouping testable-bottom # sortedImports
 --commas always # trailingCommas
 --trimwhitespace always # trailingSpace
@@ -46,7 +46,6 @@
 --rules trailingSpace
 --rules typeSugar
 --rules wrap
---rules wrapMultilineStatementBraces
 --rules wrapArguments
 --rules wrapAttributes
 --rules braces
