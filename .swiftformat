@@ -1,7 +1,8 @@
 # options
---swiftversion 5.7
+--minversion 0.52.8 # swiftformat verion
+--swiftversion 5.8 # swift version
 --self init-only # redundantSelf
---importgrouping testable-bottom # sortedImports
+--importgrouping testable-bottom # sortImports
 --commas always # trailingCommas
 --trimwhitespace always # trailingSpace
 --indent 2 #indent
@@ -20,6 +21,7 @@
 --redundanttype inferred # redundantType
 --typeblanklines preserve # blankLinesAtStartOfScope, blankLinesAtEndOfScope
 --someAny disabled # opaqueGenericParameters
+--guardelse next-line #elseOnSameLine
 --maxwidth 130 # wrap
 
 # rules
@@ -39,7 +41,7 @@
 --rules redundantGet
 --rules redundantFileprivate
 --rules redundantRawValues
---rules sortedImports
+--rules sortImports
 --rules sortDeclarations
 --rules strongifiedSelf
 --rules trailingCommas
@@ -53,6 +55,7 @@
 --rules redundantInit
 --rules redundantVoidReturnType
 --rules redundantOptionalBinding
+--rules redundantInternal
 --rules spaceInsideBrackets
 --rules spaceInsideBraces
 --rules spaceAroundBraces
@@ -68,3 +71,4 @@
 --rules opaqueGenericParameters
 --rules genericExtensions
 --rules trailingClosures
+--rules sortTypealiases
