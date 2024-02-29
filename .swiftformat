@@ -22,7 +22,7 @@
 --typeblanklines preserve # blankLinesAtStartOfScope, blankLinesAtEndOfScope
 --someAny disabled # opaqueGenericParameters
 --guardelse next-line #elseOnSameLine
---maxwidth 130 # wrap
+--maxwidth 110 # wrap
 
 # rules
 --rules anyObjectProtocol
